@@ -22,12 +22,10 @@ void bookSeat(Showtime *showtime) {
     int row = rowChar - 'A';
     col = col - 1;
 
-
     if (row < 0 || row >= ROWS || col < 0 || col >= COLS) {
         printf("\n Invalid Row or Seat Number! Please try again.\n");
         return;
     }
-
 
     if (showtime->seats[row][col].isBooked == 1) {
         printf("\n Seat %c%d is ALREADY BOOKED by %s!\n",
@@ -35,15 +33,24 @@ void bookSeat(Showtime *showtime) {
         return;
     }
 
-
     showtime->seats[row][col].isBooked = 1;
 
     printf("Enter Customer Name: ");
-
     scanf(" %[^\n]", showtime->seats[row][col].customerName);
 
+    int discountType, numTickets;
 
-    float price = 500.00;
+    printf("\nSelect Discount Category:\n");
+    printf("0 = None\n");
+    printf("1 = Student (10%% off)\n");
+    printf("2 = Senior Citizen (20%% off)\n");
+    printf("Enter category (0, 1, or 2): ");
+    scanf("%d", &discountType);
+
+    printf("How many tickets are you booking in total? (For Group Discount): ");
+    scanf("%d", &numTickets);
+
+    float price = calculatePrice(rowChar, discountType, numTickets);
 
     showtime->seats[row][col].pricePaid = price;
 
