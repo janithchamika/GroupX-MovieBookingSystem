@@ -1,0 +1,40 @@
+1)   Full Name: WGJC SANDARUWAN
+     Registration Number: AS20250395
+     GitHub Username: janithchamika
+
+2)   Full Name:DN Samarajeewa
+     Registration Number: AS20250623
+     GitHub Username: danithnethsara
+
+3)   Full Name: TVDR Sandaruwan
+     Registration Number: AS20250627
+     GitHub Username: deshanrashmika589
+
+4)   Full Name: WPN Piyumal
+     Registration Number: AS20250558
+     GitHub Username: nimethpiyumal
+
+5)   Full Name: GDC Rashmika
+     Registration Number: AS20250586
+     GitHub Username: chamathrashmika39-collab
+
+
+
+Repository Information 
+
+Repository Name: GroupX-MovieBookingSystem
+GitHub Repository URL: https://github.com/janithchamika/GroupX-MovieBookingSystem.git
+
+Contribution Summary
+
+    Member 1 (WGJC SANDARUWAN): Project leadership, repository setup, implementation of main logic and menu interface (main.c), and core data structures (booking.h).
+
+    Member 2 (TVDR Sandaruwan): Implementation of the user interface and seat map rendering module (display.c).
+
+    Member 3 (WPN Piyumal): Development of the booking logic, seat validation, and cancellation processes (reserve.c).
+
+    Member 4 (GDC Rashmika): Development of pricing logic, discount calculations (Student, Senior, Group), and revenue tracking (pricing.c).
+
+    Member 5 (DN Samarajeewa): Project documentation, formatting the final project report, compiling GitHub collaboration screenshots, and overall proofreading.
+
+
